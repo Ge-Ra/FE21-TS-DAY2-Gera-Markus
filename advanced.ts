@@ -1,8 +1,8 @@
 class Vehicle  {
     constructor(public image : string ,public brand : string, public model: string, public pYear: number, public kilometers: number) {}
     printCard() {
-      return `<div class="card col-4" style="width: 18rem;">
-      <img src="${this.image}" class="card-img-top" >
+      return `<div class="card col-4 " style="width: 18rem;">
+      <img src="${this.image}" class="card-img-top " >
       <div class="card-body">
         <h5 class="card-title">${this.brand}</h5>
         <p class="card-text">Model : ${this.model} <br> Year: ${this.pYear} <br></p>
